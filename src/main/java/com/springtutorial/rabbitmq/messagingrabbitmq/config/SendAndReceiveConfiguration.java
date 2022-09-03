@@ -20,12 +20,4 @@ public class SendAndReceiveConfiguration {
     public MessageReceiver receiver() {
         return new MessageReceiver();
     }
-
-    @Profile("sender")
-    @Bean
-    public MessageSender sender() {
-        return new MessageSender();
-    }
-
-
 }
