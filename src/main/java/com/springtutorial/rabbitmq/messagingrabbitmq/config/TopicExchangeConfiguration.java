@@ -1,6 +1,5 @@
 package com.springtutorial.rabbitmq.messagingrabbitmq.config;
 
-import com.springtutorial.rabbitmq.messagingrabbitmq.send.MessageSender;
 import com.springtutorial.rabbitmq.messagingrabbitmq.send.TopicSender;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.amqp.core.BindingBuilder;
